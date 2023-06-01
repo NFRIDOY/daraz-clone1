@@ -12,7 +12,7 @@
 }
 .navbar {
     height: 25px;
-    font-size: 15px;
+    font-size: 12px;
 }
 ul{
     display: inline;
@@ -33,5 +33,14 @@ a{
 }
 .Search-Daraz {
     width: 688px;
-    height: 45px;
+    height: 40px;
 }
+/* .row {
+    border: 1px solid red;
+}
+.align-items-baseline {
+border: 1px solid red;
+}
+img {
+    border: 1px solid red;
+} */

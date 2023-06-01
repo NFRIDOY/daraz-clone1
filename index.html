@@ -65,12 +65,19 @@
     <header>
         <div class="container">
             <nav class="navbar">
-                <div class="container-fluid">
-                  <a class="navbar-brand"><img class="daraz-logo" src="images/darazLogo.png" alt="" width="135px" height="41px"></a>
-                  <form class="d-flex">
+                <div class="row">
+                  <a class="col"><img class="daraz-logo" src="images/darazLogo.png" alt="" width="135px" height="41px"></a>
+                  <form class="d-flex col">
                     <input class="form-control Search-Daraz" type="search" placeholder="Search Daraz" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <div class="">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
                   </form>
+                  <div class="col">
+                    <div class="d-flex align-items-baseline">
+                        <img src="images/cart.jpg" alt="" width="30px" height="30px" srcset="">
+                    </div>
+                  </div>
                 </div>
               </nav>
         </div>
